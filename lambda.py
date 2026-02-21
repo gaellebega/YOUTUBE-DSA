@@ -34,6 +34,25 @@ result=list(map(lambda x:x*2, nums))
 print(result)
 
 nums2=[3,4,5]
-my_unique=list(filter(lambda n:n-1,nums2))
+# filter returns where the condition is equal to true
+my_unique=list(filter(lambda n:n-1==0,nums2))
 print(my_unique)
 
+lisst=["hen","goat","chicken","elephant"]
+zoo= list(filter(lambda w:len(w)>3,lisst))
+print(zoo)
+
+# lamda with the  tuples
+# sorting basing on the key
+values=[(1,"b","okay"),(2,"a","world"),(3,"d","nice")]
+
+# this is same as using the reverse
+sorted_val=sorted(values,key=lambda x:x[-1])
+# using the key function to sort using the lamda
+sorted_value=sorted(values,key=lambda x:x[0])
+sorted_values=sorted(values,key=lambda x:x[1]+x[1])
+print(list(sorted_val))
+print(list(sorted_value))
+print(list(sorted_values))
+# here when we have a tie it is gonna sort the secod string
+sorted_values=sorted(values,key=lambda x:x[1]+x[2])
