@@ -8,7 +8,7 @@ my_dict={
 # dictionaries when the values have the duplicates  it allows it
 # dictionaires are not indexed means you can not access them using the index
 # we use the keys to access the values
-# mutability
+# mutability to mean they can be changed and removed 
 print(my_dict["c"])
 # to change the values
 my_dict["a"]=100
