@@ -1,10 +1,6 @@
 user={"id":1,"age":30,"work":"google"}
 # looping we are gonna need the .items first
 # this will only get the keys not the values
-
-
-
-
   # the GOOD way
 for key,values in user.items():
     print(key,values)
