@@ -2,4 +2,4 @@ PEMDAS
 parantheses
 Exponential
 Multiplication and Division
-Addition and substraction
+Addition and substraction /
