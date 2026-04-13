@@ -2,4 +2,13 @@ PEMDAS
 parantheses
 Exponential
 Multiplication and Division
-Addition and substraction /
+Addition and substraction 
+
+Shorthand operators in python 
+it is also called the argumented assignment operators is the way to update the variable using the current one
+
+x=0 then by shorthand operators it becomes like
+x=x+1
+x+=1
+
+the common ones are += or -=
