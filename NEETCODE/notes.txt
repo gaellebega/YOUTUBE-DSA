@@ -12,3 +12,7 @@ x=x+1
 x+=1
 
 the common ones are += or -=
+
+LOGIC or
+if one of them is true they are both gonna be true
+if both are false the output is false
