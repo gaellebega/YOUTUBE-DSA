@@ -16,3 +16,6 @@ the common ones are += or -=
 LOGIC or
 if one of them is true they are both gonna be true
 if both are false the output is false
+
+AND 
+become true if both are true   
